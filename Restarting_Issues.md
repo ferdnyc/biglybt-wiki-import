@@ -1,0 +1,199 @@
+<div id="globalWrapper">
+
+<div id="column-content">
+
+<div id="content">
+
+<span id="top"></span>
+
+# Restarting Issues
+
+<div id="bodyContent">
+
+### From VuzeWiki
+
+<div id="contentSub">
+
+</div>
+
+<div id="jump-to-nav">
+
+Jump to: [navigation](#column-one), [search](#searchInput)
+
+</div>
+
+When Azureus has updates to install, it does them when you quit the
+azureus application (such as through File->Exit, File->Restart, or one
+of the restart prompts). This process first does various checks to see
+if you have privileges to change files in Azureus' program directory. If
+you do, it simply copies the new files in, and exits or restarts. If you
+don't have enough privileges, it will try to elevate your privileges so
+that you can write. This usually results in asking you for an
+administrative password.
+
+<span id="Restart_Errors"></span>
+
+### <span class="editsection">\[[edit](/web/20100408140547/http://wiki.vuze.com/mediawiki/index.php?title=Restarting_Issues&action=edit&section=1 "Edit section: Restart Errors")\]</span> <span class="mw-headline">Restart Errors</span>
+
+Access was denied when trying to run 'AzureusUpdater.exe'. Make sure you have rights to run this program.  
+When you last restarted or quit Azureus, you should have received a UAC
+(User Account Control) dialog box prompting you to enter an
+administrative password. If you clicked cancel, or the program did not
+run properly, you will see the above message. If you never receive this
+dialog box, try installing Azureus from
+<a href="https://web.archive.org/web/20100408140547/http://vuze.com/" class="external free" title="http://vuze.com">http://vuze.com</a>
+
+<!-- -->
+
+'AzureusUpdater.exe' not found in '\[azureus application dir\]'  
+For some reason, AzureusUpdater was not in your Azureus application
+directory (usually C:\\Program Files\\Azureus). The best remedy for this
+is to re-install Azureus from
+<a href="https://web.archive.org/web/20100408140547/http://vuze.com/" class="external free" title="http://vuze.com">http://vuze.com</a>
+
+<div class="printfooter">
+
+Retrieved from
+"[http://wiki.vuze.com/w/Restarting_Issues](https://web.archive.org/web/20100408140547/http://wiki.vuze.com/w/Restarting_Issues)"
+
+</div>
+
+<div class="visualClear">
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div id="column-one">
+
+<div id="p-cactions" class="portlet">
+
+##### Views
+
+<div class="pBody">
+
+-   <span
+    id="ca-nstab-main">[Page](/web/20100408140547/http://wiki.vuze.com/w/Restarting_Issues "View the content page [c]")</span>
+-   <span
+    id="ca-talk">[Discussion](/web/20100408140547/http://wiki.vuze.com/mediawiki/index.php?title=Talk:Restarting_Issues&action=edit&redlink=1 "Discussion about the content page [t]")</span>
+-   <span
+    id="ca-edit">[Edit](/web/20100408140547/http://wiki.vuze.com/mediawiki/index.php?title=Restarting_Issues&action=edit "You can edit this page.
+    Please use the preview button before saving [e]")</span>
+-   <span
+    id="ca-history">[History](/web/20100408140547/http://wiki.vuze.com/mediawiki/index.php?title=Restarting_Issues&action=history "Past revisions of this page [h]")</span>
+
+</div>
+
+</div>
+
+<div id="p-personal" class="portlet">
+
+##### Personal tools
+
+<div class="pBody">
+
+-   <span id="pt-login">[Log in / create
+    account](/web/20100408140547/http://wiki.vuze.com/mediawiki/index.php?title=Special:UserLogin&returnto=Restarting_Issues "You are encouraged to log in; however, it is not mandatory [o]")</span>
+
+</div>
+
+</div>
+
+<div id="p-logo" class="portlet">
+
+[](/web/20100408140547/http://wiki.vuze.com/w/Main_Page "Visit the main page [z]")
+
+</div>
+
+<div id="p-navigation" class="generated-sidebar portlet">
+
+##### Navigation
+
+<div class="pBody">
+
+-   <span id="n-mainpage-description">[Main
+    Page](/web/20100408140547/http://wiki.vuze.com/w/Main_Page)</span>
+-   <span id="n-portal">[Community
+    portal](/web/20100408140547/http://wiki.vuze.com/w/VuzeWiki:Community_Portal "About the project, what you can do, where to find things")</span>
+-   <span id="n-currentevents">[Current
+    events](/web/20100408140547/http://wiki.vuze.com/w/VuzeWiki:Current_events "Find background information on current events")</span>
+-   <span id="n-recentchanges">[Recent
+    changes](/web/20100408140547/http://wiki.vuze.com/w/Special:RecentChanges "The list of recent changes in the wiki [r]")</span>
+-   <span id="n-randompage">[Random
+    page](/web/20100408140547/http://wiki.vuze.com/w/Special:Random "Load a random page [x]")</span>
+-   <span
+    id="n-help">[Help](/web/20100408140547/http://wiki.vuze.com/w/Help:Contents "The place to find out")</span>
+
+</div>
+
+</div>
+
+<div id="p-search" class="portlet">
+
+##### Search
+
+<div id="searchBody" class="pBody">
+
+<div>
+
+ 
+
+</div>
+
+</div>
+
+</div>
+
+<div id="p-tb" class="portlet">
+
+##### Toolbox
+
+<div class="pBody">
+
+-   <span id="t-whatlinkshere">[What links
+    here](/web/20100408140547/http://wiki.vuze.com/w/Special:WhatLinksHere/Restarting_Issues "List of all wiki pages that link here [j]")</span>
+-   <span id="t-recentchangeslinked">[Related
+    changes](/web/20100408140547/http://wiki.vuze.com/w/Special:RecentChangesLinked/Restarting_Issues "Recent changes in pages linked from this page [k]")</span>
+-   <span id="t-specialpages">[Special
+    pages](/web/20100408140547/http://wiki.vuze.com/w/Special:SpecialPages "List of all special pages [q]")</span>
+-   <span id="t-print">[Printable
+    version](/web/20100408140547/http://wiki.vuze.com/mediawiki/index.php?title=Restarting_Issues&printable=yes "Printable version of this page [p]")</span>
+-   <span id="t-permalink">[Permanent
+    link](/web/20100408140547/http://wiki.vuze.com/mediawiki/index.php?title=Restarting_Issues&oldid=8014 "Permanent link to this revision of the page")</span>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="visualClear">
+
+</div>
+
+<div id="footer">
+
+<div id="f-poweredbyico">
+
+[![Powered by
+MediaWiki](/web/20100408140547im_/http://wiki.vuze.com/mediawiki/skins/common/images/poweredby_mediawiki_88x31.png)](https://web.archive.org/web/20100408140547/http://www.mediawiki.org/)
+
+</div>
+
+-   <span id="lastmod">This page was last modified on 1 March 2010, at
+    10:29.</span>
+-   <span id="viewcount">This page has been accessed 369 times.</span>
+-   <span id="privacy">[Privacy
+    policy](/web/20100408140547/http://wiki.vuze.com/w/VuzeWiki:Privacy_policy "VuzeWiki:Privacy policy")</span>
+-   <span id="about">[About
+    VuzeWiki](/web/20100408140547/http://wiki.vuze.com/w/VuzeWiki:About "VuzeWiki:About")</span>
+-   <span
+    id="disclaimer">[Disclaimers](/web/20100408140547/http://wiki.vuze.com/w/VuzeWiki:General_disclaimer "VuzeWiki:General disclaimer")</span>
+
+</div>
+
+</div>
