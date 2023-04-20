@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://wiki.vuze.com/w/Avoid_traffic_shaping","20210712091909","https://web.archive.org/","web","/_static/",
+	      "1626081549");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="UTF-8"/>
+<title>Avoid traffic shaping - VuzeWiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Avoid_traffic_shaping","wgTitle":"Avoid traffic shaping","wgCurRevisionId":15807,"wgRevisionId":15807,"wgArticleId":3691,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Documentation","Troubleshooting"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Avoid_traffic_shaping","wgRelevantArticleId":3691,"wgRequestId":"1adc2385046e4cc1a67ba9a9","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFCKEditorDir":"extensions/WYSIWYG/ckeditor/","wgFCKEditorExtDir":"extensions/WYSIWYG","wgFCKEditorToolbarSet":"Wiki","wgFCKEditorHeight":"0","wgCKeditorMagicWords":{"wikitags":["nowiki","includeonly","onlyinclude","noinclude","comments","poll","pre","gallery","indicator"],"imagewikitags":["references","ref","syntaxhighlight","html","nowiki","math","gallery","includeonly","noinclude","onlyinclude"],"magicwords":["NOTOC","FORCETOC","TOC","NOEDITSECTION","NEWSECTIONLINK","NONEWSECTIONLINK","NOGALLERY","HIDDENCAT","NOCONTENTCONVERT","NOCC","NOTITLECONVERT","NOTC","START","END","INDEX","NOINDEX","STATICREDIRECT","DISAMBIG"],"datevars":["CURRENTYEAR","CURRENTMONTH","CURRENTMONTHNAME","CURRENTMONTHNAMEGEN","CURRENTMONTHABBREV","CURRENTDAY","CURRENTDAY2","CURRENTDOW","CURRENTDAYNAME","CURRENTTIME","CURRENTHOUR","CURRENTWEEK","CURRENTTIMESTAMP","LOCALYEAR","LOCALMONTH","LOCALMONTHNAME","LOCALMONTHNAMEGEN","LOCALMONTHABBREV","LOCALDAY","LOCALDAY2","LOCALDOW","LOCALDAYNAME","LOCALTIME","LOCALHOUR","LOCALWEEK","LOCALTIMESTAMP"],"wikivars":["SITENAME","SERVER","SERVERNAME","DIRMARK","DIRECTIONMARK","SCRIPTPATH","STYLEPATH","CURRENTVERSION","CONTENTLANGUAGE","CONTENTLANG","PAGEID","CASCADINGSOURCES","REVISIONID","REVISIONDAY","REVISIONDAY2","REVISIONMONTH","REVISIONMONTH1","REVISIONYEAR","REVISIONTIMESTAMP","REVISIONUSER","REVISIONSIZE","NUMBEROFPAGES","NUMBEROFARTICLES","NUMBEROFFILES","NUMBEROFEDITS","NUMBEROFVIEWS","NUMBEROFUSERS","NUMBEROFADMINS","NUMBEROFACTIVEUSERS","FULLPAGENAME","PAGENAME","BASEPAGENAME","SUBPAGENAME","SUBJECTPAGENAME","ARTICLEPAGENAME","TALKPAGENAME","ROOTPAGENAME","NAMESPACE","NAMESPACENUMBER","SUBJECTSPACE","ARTICLESPACE","TALKSPACE"],"parserhooks":["lc","lcfirst","uc","ucfirst","formatnum","#dateformat","padleft","padright","plural","grammar","#language","int","#tag","#ns","#nse","#urlencode","#lcfirst","#ucfirst","#lc","#uc","#localurl","#localurle","#fullurl","#fullurle","#canonicalurl","#canonicalurle","#formatnum","#grammar","#gender","#plural","#bidi","#numberofpages","#numberofusers","#numberofactiveusers","#numberofarticles","#numberoffiles","#numberofadmins","#numberingroup","#numberofedits","#padleft","#padright","#anchorencode","#defaultsort","#filepath","#pagesincategory","#pagesize","#protectionlevel","#protectionexpiry","#namespacee","#namespacenumber","#talkspace","#talkspacee","#subjectspace","#subjectspacee","#pagename","#pagenamee","#fullpagename","#fullpagenamee","#rootpagename","#rootpagenamee","#basepagename","#basepagenamee","#subpagename","#subpagenamee","#talkpagename","#talkpagenamee","#subjectpagename","#subjectpagenamee","#pageid","#revisionid","#revisionday","#revisionday2","#revisionmonth","#revisionmonth1","#revisionyear","#revisiontimestamp","#revisionuser","#cascadingsources","#namespace","#int","#special","#speciale","#formatdate","#displaytitle","#numberofviews"]},"wgCKeditorUseBuildin4Extensions":[],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgPreferredVariant":"en"});mw.loader.implement("user.options",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.page.startup","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/web/20210712091909cs_/http://wiki.vuze.com/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<script async="" src="/web/20210712091909js_/http://wiki.vuze.com/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="generator" content="MediaWiki 1.27.2"/>
+<meta name="google-site-verification" content="QO428tBMxGIWZiYJpX2-ygtaBEIA781wWIoIdMrrsKw"/>
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit"/>
+<link rel="edit" title="Edit" href="/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit"/>
+<link rel="shortcut icon" href="/web/20210712091909im_/http://wiki.vuze.com/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/web/20210712091909/http://wiki.vuze.com/mediawiki/opensearch_desc.php" title="VuzeWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://wiki.vuze.com/mediawiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="VuzeWiki Atom feed" href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Avoid_traffic_shaping rootpage-Avoid_traffic_shaping skin-vector action-view">
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Avoid traffic shaping</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From VuzeWiki</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><i>Note:</i> This is documentation specific to Vuze (Azureus), if you're looking for the specifications see <a href="/web/20210712091909/http://wiki.vuze.com/w/Message_Stream_Encryption" title="Message Stream Encryption">Message Stream Encryption</a>.
+</p>
+<div id="toc" class="toc"><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#General_info_for_endusers"><span class="tocnumber">1</span> <span class="toctext">General info for endusers</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#When_to_turn_it_on"><span class="tocnumber">2</span> <span class="toctext">When to turn it on</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#The_settings"><span class="tocnumber">2.1</span> <span class="toctext">The settings</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Escalation_of_the_crypto_settings"><span class="tocnumber">2.2</span> <span class="toctext">Escalation of the crypto settings</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Level_5"><span class="tocnumber">3</span> <span class="toctext">Level 5</span></a>
+<ul>
+<li class="toclevel-2 tocsection-6"><a href="#Possible_problems"><span class="tocnumber">3.1</span> <span class="toctext">Possible problems</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Private_torrents"><span class="tocnumber">3.2</span> <span class="toctext">Private torrents</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Alternatives"><span class="tocnumber">3.3</span> <span class="toctext">Alternatives</span></a>
+<ul>
+<li class="toclevel-3 tocsection-9"><a href="#Disguising_tracker_traffic"><span class="tocnumber">3.3.1</span> <span class="toctext">Disguising tracker traffic</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Notes"><span class="tocnumber">4</span> <span class="toctext">Notes</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="General_info_for_endusers">General info for endusers</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=1" title="Edit section: General info for endusers">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Since more and more users are affected by overly aggressive <a href="https://web.archive.org/web/20210712091909/http://wiki.vuze.com/" class="extiw" title="wikipedia:Traffic shaping">traffic shaping</a> Azureus implements this traffic obfuscation feature to allow users to use their bandwidth properly. Since this only works when a shaped peer can connect to any peer in the swarm with the crypto header it is currently not possible to turn this feature off.
+</p><p>This feature does NOT provide anonymity and only very limited confidentiality, i.e. if somebody is in possession of the correct infohash he can obtain your IP/Port combination from public sources like a tracker or from other clients via <a href="/web/20210712091909/http://wiki.vuze.com/w/Peer_Exchange" title="Peer Exchange">PEX</a> he will be able to connect to you as usual. Only a passive listener can't determine what you're downloading.
+</p>
+<h2><span class="mw-headline" id="When_to_turn_it_on">When to turn it on</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=2" title="Edit section: When to turn it on">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Generally this feature will <i>not</i> help you with any kind of download speed or other problems unless
+</p>
+<ul><li>you're affected by P2P/BitTorrent traffic shaping or it is completely blocked (see <a href="/web/20210712091909/http://wiki.vuze.com/w/Bad_ISPs" title="Bad ISPs">Bad ISPs</a>)</li>
+<li>you're on torrents with a large fraction of traffic shaped users</li>
+<li>you want to hide what protocol you're using from passive surveillance (it is not for those who seek anonymity)</li></ul>
+<p><i>Please note</i>: You should make sure that you don't violate any rules (e.g. 'reasonable use' clauses) that are associated with your internet connection such as the contract with your ISP.
+</p><p>So before you turn this feature on you should verify you have <a href="/web/20210712091909/http://wiki.vuze.com/w/Good_settings" title="Good settings">good settings</a> and no <a href="/web/20210712091909/http://wiki.vuze.com/w/NAT_problem" title="NAT problem">NAT problem</a>.
+</p><p>You might also test with the built-in Mlab speed test in Vuze for your effective speeds and also for possible traffic shaping/throttling/blocking activity. Go to <a href="/web/20210712091909/http://wiki.vuze.com/w/UG_Menus#Vuze_Help_Menu" title="UG Menus">Help menu, select "Speed test..."</a> and run the "General speed test".
+</p>
+<h3><span class="mw-headline" id="The_settings">The settings</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=3" title="Edit section: The settings">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>To enable the encryption you have to switch to intermediate user mode and go to <a href="/web/20210712091909/http://wiki.vuze.com/w/UG_Options#Transport_Encryption" title="UG Options"><i>Tools -&gt; Options -&gt; Connection -&gt; Transport Encryption</i></a> and enable the <i>Require encrypted transport</i> checkbox.
+</p><p><a href="/web/20210712091909/http://wiki.vuze.com/w/File:Vuze4310OptionConnectionTransportEncryption.PNG" class="image"><img alt="Vuze4310OptionConnectionTransportEncryption.PNG" src="/web/20210712091909im_/http://wiki.vuze.com/mediawiki/images/b/bc/Vuze4310OptionConnectionTransportEncryption.PNG" width="740" height="250"/></a>
+</p><p>Enabling this feature instructs to establish connections with the crypto handshake, which will consume more CPU time due to the <a href="https://web.archive.org/web/20210712091909/http://wiki.vuze.com/" class="extiw" title="wikipedia:D-H">D-H</a> key exchange. If it is disabled Azureus will only use the obfuscation header for peers that either require that via PEX/DHT or when a remote peer initiates a crypto connection.
+</p><p>Further details are controlled by the following settings:
+</p>
+<dl><dt>Minimum encryption level</dt>
+<dd>this will specify the minimal encryption level you will choose when establish encrypted connections, currently available are
+<ol><li><b>Plain</b>: This only uses the obfuscation header and transmits the entire payload unencrypted. It's still easy to identify but might be enough to confuse simple traffic shapers</li>
+<li><b>RC4</b>: This mode uses strong cryptography to obfuscate the traffic and is only attackable with very sophisticated and expensive attacks but it consumes more CPU time than the <i>Plain</i> method.</li></ol></dd></dl>
+<dl><dt>Allow non-encrypted outgoing connections if encrypted connection attempt fails <span class="reference"><sup id="fn_2_back"><a href="#fn_2">2</a></sup></span></dt>
+<dd>This option ensures compatibility with legacy clients that don't support the traffic obfuscation but makes it easier for the ISP to identify users that engage in BitTorrent activity.</dd>
+<dt>Allow non-encrypted incoming connections</dt>
+<dd>Disabling this option will prevent any peer from connecting to you unless he uses the obfuscation header. Thus it even prevent peers from connecting to you when they support encryption but don't know that you require it. But as stated in the implementation <a href="/web/20210712091909/http://wiki.vuze.com/w/Message_Stream_Encryption#Notes_about_the_current_Azureus_implementation" title="Message Stream Encryption">specs</a> Azureus' <a href="/web/20210712091909/http://wiki.vuze.com/w/Peer_Exchange" title="Peer Exchange">PEX</a> and <a href="/web/20210712091909/http://wiki.vuze.com/w/Distributed_tracker" title="Distributed tracker">Distributed tracker</a> is obfuscation aware and thus tells other peers to use it even when they default encryption to off.<br/> Enabling this option may be necessary when the ISP limits ports instead of single connections.</dd></dl>
+<h3><span class="mw-headline" id="Escalation_of_the_crypto_settings">Escalation of the crypto settings</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=4" title="Edit section: Escalation of the crypto settings">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Since different methods of traffic shaping and protocol discovery exist different levels of shaping avoidance are necessary. The following configuration options are listed in ascending order.
+</p><p>It's suggested to use one of the first 3 combinations unless there is evidence that more drastic steps are necessary. If you turn off fallback for incoming connections we suggest to change the listening port in case the shaping is done on a per-port basis.
+</p>
+<table class="wikitable">
+
+<tr>
+<th>Level
+</th>
+<th>Enabled
+</th>
+<th>Method
+</th>
+<th>allow outgoing fallback
+</th>
+<th>allow incoming fallback
+</th>
+<th>advantages
+</th>
+<th>disadvantages
+</th></tr>
+<tr>
+<td>0
+</td>
+<td style="background: #ffdddd"> No + using a <a href="/web/20210712091909/http://wiki.vuze.com/w/Select_port_for_Vuze" title="Select port for Vuze">non-standard port</a>
+</td>
+<td>none
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td>Doesn't use cryptography unless required by a peer<span class="reference"><sup id="fn_1_back"><a href="#fn_1">1</a></sup></span>; no additional CPU consumption
+</td>
+<td>Doesn't prevent traffic shaping, unless the provider simply throttles standard P2P ports
+</td></tr>
+<tr>
+<td>1
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td>Plain
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td>Least CPU intensive and most compatible setting to avoid traffic shaping
+</td>
+<td>Easy to detect since the payload isn't encrypted
+</td></tr>
+<tr>
+<td>2
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td>RC4
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td>Still maintains maximum compatibility but avoids traffic shaping, at least for outgoing connections
+</td>
+<td>The incoming port used for BT connections may be detected
+</td></tr>
+<tr>
+<td>3 <span class="reference"><sup id="fn_2_back"><a href="#fn_2">2</a></sup></span><sup>,</sup><span class="reference"><sup id="fn_3_back"><a href="#fn_3">3</a></sup></span>
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td>RC4
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td style="background: #ffdddd"> No
+</td>
+<td>Prevents that any classic BT connection to the incoming port is successful and thus makes it harder to identify ports that are used for BT traffic
+</td>
+<td>Limited backwards compatibility
+</td></tr>
+<tr>
+<td>4 <span class="reference"><sup id="fn_3_back"><a href="#fn_3">3</a></sup></span>
+</td>
+<td style="background: #ddffdd"> Yes
+</td>
+<td>RC4
+</td>
+<td style="background: #ffdddd"> No
+</td>
+<td style="background: #ffdddd"> No
+</td>
+<td>Prevents any classic BT connection and thus makes it harder to identify the entire host as a BT user
+</td>
+<td>No backwards compatibility at all
+</td></tr>
+<tr>
+<td>5 <span class="reference"><sup id="fn_3_back"><a href="#fn_3">3</a></sup></span>
+</td>
+<td colspan="6" style="text-align:center;font-weight:bolder;"> see <a href="#Level_5">Level 5</a> below
+</td></tr></table>
+<h2><span class="mw-headline" id="Level_5">Level 5</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=5" title="Edit section: Level 5">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<dl><dd><i>Note:</i> This is level is available from Azureus 3.0.2.3_B05 onwards.</dd></dl>
+<p>Level 5 is only intended for people who have problems with a specific traffic shaping method employed by sandvine traffic shaping hardware, see <a href="/web/20210712091909/http://wiki.vuze.com/w/Bad_ISPs" title="Bad ISPs">Bad ISPs</a> to discover if this applies to you. The premise of this method is to minimize the amount of unencrypted information leaked. To enable it select following settings:
+</p>
+<ol><li><i>Tools -&gt; Options -&gt; Connection -&gt; Transport Encryption</i> (<a href="/web/20210712091909/http://wiki.vuze.com/w/UG_Options#Transport_Encryption" title="UG Options">See here</a>)
+<ul><li>Enable <i>require encryption</i></li>
+<li>Select <i>RC4</i></li>
+<li>Disable both fallback checkboxes</li></ul></li>
+<li><i>Tools -&gt; Options -&gt; Tracker -&gt; Client</i>
+<ul><li>Enable <i>Do not announce the listening port to the tracker</i></li>
+<li>Set the peer limit to a low figure, start with 1 or 2</li>
+<li>set the <i>Minimum time between tracker announces</i> to 900 for example</li></ul></li>
+<li>Adjust DHT settings (2 mutually exclusive alternatives):
+<ul><li>Disable the DHT:</li></ul>
+<dl><dd><dl><dd>Go to <i>Tools -&gt; Options -&gt; Plugins -&gt; Distributed DB</i> and uncheck <i>Enable the distributed database</i></dd></dl></dd></dl>
+<ul><li>Try to get more peers via DHT:</li></ul>
+<dl><dd><dl><dd>Go to <i>Tools -&gt; Options -&gt; Plugins -&gt; Distributed Tracker</i> and uncheck <i>Only track normal torrents[...]</i></dd></dl></dd></dl></li>
+<li>Try to seed a torrent you haven't seeded within the last few hours or so before applying these settings</li></ol>
+<p><br/>
+</p>
+<h3><span class="mw-headline" id="Possible_problems">Possible problems</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=6" title="Edit section: Possible problems">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<ul><li>For some of these settings to be available you will have to switch to intermediate or higher user mode</li>
+<li>This might not work on torrents with very few peers because the shaping device may grab all necessary data with the first few tracker announces</li>
+<li>These settings will significantly increase the time it takes to join a swarm, regardless of downloading or uploading, so you have to be patient and/or perform a manual announce a few(!) times until you get your first few pex-capable peers. You should also consider that <a href="/web/20210712091909/http://wiki.vuze.com/w/Peer_Exchange" title="Peer Exchange">PEX</a> takes at least a minute, if not longer to gather additional peers.</li>
+<li>This will not work on private torrents, see below.</li>
+<li>This solution may not work at all for you! We've had both reports of success and failure with the method described above.</li></ul>
+<h3><span class="mw-headline" id="Private_torrents">Private torrents</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=7" title="Edit section: Private torrents">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>Since level 5 is highly dependent on <a href="/web/20210712091909/http://wiki.vuze.com/w/Peer_Exchange" title="Peer Exchange">PEX</a> which is mutually exclusive with <a href="/web/20210712091909/http://wiki.vuze.com/w/Private_torrent" title="Private torrent">private torrents</a>/trackers this mode cannot be applied to seed or download on private trackers. But since private trackers are usually community-based it should be easy for you to request your administrators to add <a href="https://web.archive.org/web/20210712091909/http://wiki.vuze.com/" class="extiw" title="wikipedia:https">HTTPS</a>-support to their tracker and thus reduce the information leak to traffic shaping hardware.
+</p>
+<dl><dd><i>Note:</i> Since only users affected by this kind of traffic shaping will need https-tracker announces and the remaining userbase can use http the performance impact should be negligible.</dd></dl>
+<h3><span class="mw-headline" id="Alternatives">Alternatives</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=8" title="Edit section: Alternatives">edit</a><span class="mw-editsection-bracket">]</span></span></h3>
+<p>If you are not the initial seed of a torrent and just want to do your fair share of uploading you can do that while you're still downloading by dynamically limiting the download speed to a multiple or fraction of the upload speed, you can do that by using autospeed classic under <i>tools -&gt; options -&gt; transfer -&gt; autospeed</i> and setting an download to upload speed ratio.
+</p>
+<h4><span class="mw-headline" id="Disguising_tracker_traffic">Disguising tracker traffic</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=9" title="Edit section: Disguising tracker traffic">edit</a><span class="mw-editsection-bracket">]</span></span></h4>
+<p>Another option is to tunnel the tracker over <a target="_blank" rel="noreferrer noopener" class="external text" href="https://web.archive.org/web/20210712091909/http://tor.eff.org/">TOR</a> or an SSH-Tunnel via <i>tracker communication proxying</i> using SOCKS under <i>tools -&gt; options -&gt; connection -&gt; proxy options</i>. If you do this you won't have to set any of the above options (limiting peer requests etc.), but you will have to set your announce IP override to your external, public IP under <i>tools -&gt; options -&gt; tracker -&gt; client</i>.
+</p>
+<h2><span class="mw-headline" id="Notes">Notes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=10" title="Edit section: Notes">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li> <cite id="fn_1"><a href="#fn_1_back">Note 1</a>: </cite> Doesn't work with <a href="/web/20210712091909/http://wiki.vuze.com/w/Private_torrent" title="Private torrent">private torrents</a></li>
+<li> <cite id="fn_2"><a href="#fn_2_back">Note 2</a>: </cite> Should not be used in combination with the <a href="/web/20210712091909/http://wiki.vuze.com/w/UG_Options#Advanced_Network_Settings" title="UG Options">bind to local port</a> feature</li>
+<li> <cite id="fn_3"><a href="#fn_3_back">Note 3</a>: </cite> You should change your listening port and adjust your <a href="/web/20210712091909/http://wiki.vuze.com/w/Port_forwarding" title="Port forwarding">port forward</a> and/or <a href="/web/20210712091909/http://wiki.vuze.com/w/Firewalling" title="Firewalling">firewall</a> rules after you've disabled incoming fallback connections</li></ul>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit&amp;section=11" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul><li><a href="/web/20210712091909/http://wiki.vuze.com/w/Message_Stream_Encryption" title="Message Stream Encryption">Message Stream Encryption</a></li>
+<li><a href="/web/20210712091909/http://wiki.vuze.com/w/Bad_ISPs" title="Bad ISPs">Bad ISPs</a></li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20210712015121
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.064 seconds
+Real time usage: 0.186 seconds
+Preprocessor visited node count: 177/1000000
+Preprocessor generated node count: 392/1000000
+Post‐expand include size: 1037/2097152 bytes
+Template argument size: 27/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- 
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   26.546      1 - -total
+ 27.71%    7.355      3 - Template:Fnb
+ 26.15%    6.942     11 - Template:Yes
+ 18.05%    4.793      6 - Template:Fn
+ 11.07%    2.940      4 - Template:No
+-->
+
+<!-- Saved in parser cache with key vuze_wiki:pcache:idhash:3691-0!*!0!!en!5!* and timestamp 20210712015120 and revision id 15807
+ -->
+</div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://web.archive.org/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;oldid=15807">http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;oldid=15807</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/web/20210712091909/http://wiki.vuze.com/w/Category:Documentation" title="Category:Documentation">Documentation</a></li><li><a href="/web/20210712091909/http://wiki.vuze.com/w/Category:Troubleshooting" title="Category:Troubleshooting">Troubleshooting</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Special:CreateAccount&amp;returnto=Avoid+traffic+shaping" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Special:UserLogin&amp;returnto=Avoid+traffic+shaping" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-main" class="selected"><span><a href="/web/20210712091909/http://wiki.vuze.com/w/Avoid_traffic_shaping" title="View the content page [c]" accesskey="c">Page</a></span></li>
+															<li id="ca-talk" class="new"><span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Talk:Avoid_traffic_shaping&amp;action=edit&amp;redlink=1" title="Discussion about the content page [t]" accesskey="t" rel="discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/web/20210712091909/http://wiki.vuze.com/w/Avoid_traffic_shaping">Read</a></span></li>
+															<li id="ca-edit"><span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=edit" title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search" title="Search VuzeWiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/web/20210712091909/http://wiki.vuze.com/w/Main_Page" title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-" aria-labelledby="p--label">
+			<h3 id="p--label"></h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-Download-Vuze-Now"><a href="https://web.archive.org/web/20210712091909/http://www.vuze.com/download" target="_blank">Download Vuze Now</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/web/20210712091909/http://wiki.vuze.com/w/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-recentchanges"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li><li id="n-help"><a href="https://web.archive.org/web/20210712091909/https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Contents" target="_blank" title="The place to find out">Help</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:WhatLinksHere/Avoid_traffic_shaping" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:RecentChangesLinked/Avoid_traffic_shaping" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="/web/20210712091909/http://wiki.vuze.com/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;oldid=15807" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 26 February 2014, at 19:14.</li>
+											<li id="footer-info-viewcount">This page has been accessed 163,971 times.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-about"><a href="/web/20210712091909/http://wiki.vuze.com/w/VuzeWiki:About" title="VuzeWiki:About">About VuzeWiki</a></li>
+											<li id="footer-places-mobileview"><a href="https://web.archive.org/web/20210712091909/http://wiki.vuze.com/mediawiki/index.php?title=Avoid_traffic_shaping&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-poweredbyico">
+							<a href="//web.archive.org/web/20210712091909/http://www.mediawiki.org/"><img src="/web/20210712091909im_/http://wiki.vuze.com/mediawiki/resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/web/20210712091909im_/http://wiki.vuze.com/mediawiki/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /web/20210712091909im_/http://wiki.vuze.com/mediawiki/resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+											<li id="footer-analyticsystemsico">
+							Any use of Vuze&reg; and Vuze+&trade; that violates the rights of any person or entity is not allowed. <a href="https://web.archive.org/web/20210712091909/http://vuze.com/corp/legal.php">More</a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.loader.state({"user":"ready","user.groups":"ready"});mw.loader.load(["mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest"]);});</script>
+<script type="text/javascript">  
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//web.archive.org/web/20210712091909/http://widget.uservoice.com/f5kmK1F7NbAqKV3EYfu3A.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+// Set colors
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+    forum_id: 170588,
+    contact_enabled: false,
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)'
+}]);
+
+// Identify the user and pass traits
+// To enable, replace sample data with actual user traits and uncomment the line
+UserVoice.push(['identify', {
+  type:       'Wiki'
+}]);
+
+// Add default trigger to the bottom-right corner of the window:
+UserVoice.push(['addTrigger', { mode: 'smartvote', trigger_position: 'bottom-right' }]);
+
+UserVoice.push(['autoprompt', {}]);
+</script><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//web.archive.org/web/20210712091909/http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', "UA-1474242-1", 'auto');
+  ga('require', 'linkid', 'linkid.js');
+  ga('send', 'pageview');
+
+</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":107});});</script>
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:19:09 Jul 12, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:25:53 Apr 20, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 543.875
+  exclusion.robots: 0.161
+  exclusion.robots.policy: 0.151
+  cdx.remote: 0.068
+  esindex: 0.009
+  LoadShardBlock: 499.221 (3)
+  PetaboxLoader3.datanode: 351.036 (4)
+  load_resource: 129.246
+  PetaboxLoader3.resolve: 42.649
+-->

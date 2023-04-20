@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head><script type="text/javascript" src="/_static/js/bundle-playback.js?v=1WaXNDFE" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://wiki.vuze.com/w/Unix_Startup_Script","20131114095333","https://web.archive.org/","web","/_static/",
+	      "1384422813");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+<title>Unix Startup Script - VuzeWiki</title>
+<meta charset="UTF-8"/>
+<meta name="generator" content="MediaWiki 1.21.2"/>
+<meta name="google-site-verification" content="QO428tBMxGIWZiYJpX2-ygtaBEIA781wWIoIdMrrsKw"/>
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit"/>
+<link rel="edit" title="Edit" href="/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit"/>
+<link rel="shortcut icon" href="/web/20131114095333im_/http://wiki.vuze.com/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/web/20131114095333/http://wiki.vuze.com/mediawiki/opensearch_desc.php" title="VuzeWiki (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="http://wiki.vuze.com/mediawiki/api.php?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="VuzeWiki Atom feed" href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="stylesheet" href="https://web.archive.org/web/20131114095333cs_/http://wiki.vuze.com/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cskins.monobook&amp;only=styles&amp;skin=monobook&amp;*"/>
+<!--[if IE 6]><link rel="stylesheet" href="/mediawiki/skins/monobook/IE60Fixes.css?303" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="/mediawiki/skins/monobook/IE70Fixes.css?303" media="screen" /><![endif]--><meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="https://web.archive.org/web/20131114095333cs_/http://wiki.vuze.com/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=styles&amp;skin=monobook&amp;*"/>
+<style>a:lang(ar),a:lang(ckb),a:lang(fa),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: vuze_wiki:resourceloader:filter:minify-css:7:b498f96f995b4404af4e9ac555273f24 */</style>
+
+<script src="https://web.archive.org/web/20131114095333js_/http://wiki.vuze.com/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=monobook&amp;*"></script>
+<script>if(window.mw){
+mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Unix_Startup_Script","wgTitle":"Unix Startup Script","wgCurRevisionId":9852,"wgArticleId":4045,"wgIsArticle":true,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Technical Information"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Unix_Startup_Script","wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"hidesig":true,"templateEditor":false,"templates":false,"preview":true,"previewDialog":false,"publish":false,"toc":false}});
+}</script><script>if(window.mw){
+mw.loader.implement("user.options",function(){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"disablesuggest":0,"editfont":"default","editondblclick":0,"editsection":1,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":0,"extendwatchlist":0,"externaldiff":0,"externaleditor":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"justify":0,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nocache":0,"noconvertlink":0,"norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"quickbar":5,"rcdays":7,"rclimit":50,"rememberpassword":0,"rows":25,"searchlimit":20,"showhiddencats":0,"showjumplinks":1,"shownumberswatching":1,"showtoc":1,"showtoolbar":1,"skin":"monobook","stubthreshold":0,"thumbsize":2,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":0,"watchdefault":0,"watchdeletion":0,"watchlistdays":3,
+"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"wllimit":250,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"wikieditor-publish":0,"variant":"en","language":"en","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false});;},{},{});mw.loader.implement("user.tokens",function(){mw.user.tokens.set({"editToken":"+\\","patrolToken":false,"watchToken":false});;},{},{});
+/* cache key: vuze_wiki:resourceloader:filter:minify-js:7:7db69af3c6c0bddac35c87c8a88134b7 */
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
+}</script>
+</head>
+<body class="mediawiki ltr sitedir-ltr ns-0 ns-subject page-Unix_Startup_Script skin-monobook action-view">
+<div id="globalWrapper">
+<div id="column-content"><div id="content" class="mw-body-primary" role="main">
+	<a id="top"></a>
+	
+	<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Unix Startup Script</span></h1>
+	<div id="bodyContent" class="mw-body">
+		<div id="siteSub">From VuzeWiki</div>
+		<div id="contentSub"></div>
+		<div id="jump-to-nav" class="mw-jump">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
+		<!-- start content -->
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p><br/>
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contents</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Linux.2FUnix_Startup_Script"><span class="tocnumber">1</span> <span class="toctext">Linux/Unix Startup Script</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Introduction"><span class="tocnumber">1.1</span> <span class="toctext">Introduction</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Manually_updating_your_start_script"><span class="tocnumber">1.2</span> <span class="toctext">Manually updating your start script</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Note_to_distros"><span class="tocnumber">1.3</span> <span class="toctext">Note to distros</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#The_latest_script"><span class="tocnumber">1.4</span> <span class="toctext">The latest script</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Changes"><span class="tocnumber">1.5</span> <span class="toctext">Changes</span></a>
+<ul>
+<li class="toclevel-3 tocsection-7"><a href="#VERSION_1"><span class="tocnumber">1.5.1</span> <span class="toctext">VERSION 1</span></a></li>
+<li class="toclevel-3 tocsection-8"><a href="#VERSION_2"><span class="tocnumber">1.5.2</span> <span class="toctext">VERSION 2</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</td></tr></table>
+<h1><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=1" title="Edit section: Linux/Unix Startup Script">edit</a>]</span> <span class="mw-headline" id="Linux.2FUnix_Startup_Script">Linux/Unix Startup Script</span></h1>
+<h2><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=2" title="Edit section: Introduction">edit</a>]</span> <span class="mw-headline" id="Introduction"> Introduction </span></h2>
+<p>From time to time, azureus startup script will need to be changed to handle new features or to fix existing bugs.  Since we can't just overwrite your old ./azureus script (especially if you modified it or installed Azureus via a distro), this page is meant to walk you through what you need to do.
+</p>
+<h2><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=3" title="Edit section: Manually updating your start script">edit</a>]</span> <span class="mw-headline" id="Manually_updating_your_start_script"> Manually updating your start script </span></h2>
+<p>If you downloaded and installed Azureus from SourceForge, Vuze, or Zudeo, AND you have made no modifications to the startup script, you can safely replace the new one with the old one.  When there is a new startup script available, you will be informed via a message box.  Simply copy the new one over the old one and re-run azureus.
+</p><p>If you manually edited your azureus script only to set the JAVA_PROGRAM_DIR or PROGRAM_DIR variables, or to set java runtime settings, copy or make note of those lines from your edited script.  Then, copy in the new script, edit it and paste those lines back in. 
+</p><p>If you've done major changes to the script, the first thing you need to do is find your existing startup script version.  Search the script for "SCRIPT_VERSION=".  If there are no matches, you have version 0. Read the sections describing the changes between your version and the latest version to get and idea of what you need to change (and why).
+</p>
+<h2><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=4" title="Edit section: Note to distros">edit</a>]</span> <span class="mw-headline" id="Note_to_distros"> Note to distros </span></h2>
+<p>Please keep your script up to date.  While you may not need all the directory scanning and version verification script code, you may need to know if you have to set new variables or pass in new parameters.  (For example, Version 1 adds and entry LD_LIBRARY_PATH so that Azureus can display a browser window)
+</p>
+<h2><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=5" title="Edit section: The latest script">edit</a>]</span> <span class="mw-headline" id="The_latest_script"> The latest script </span></h2>
+<p><a target="_blank" class="external free" href="https://web.archive.org/web/20131114095333/http://azureus.cvs.sourceforge.net/*checkout*/azureus/azureus2/org/gudy/azureus2/platform/unix/startupScript">http://azureus.cvs.sourceforge.net/*checkout*/azureus/azureus2/org/gudy/azureus2/platform/unix/startupScript</a>
+</p><p><br/>
+</p>
+<h2><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=6" title="Edit section: Changes">edit</a>]</span> <span class="mw-headline" id="Changes">Changes</span></h2>
+<h3><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=7" title="Edit section: VERSION 1">edit</a>]</span> <span class="mw-headline" id="VERSION_1">VERSION 1</span></h3>
+<p>The primary reason for this change is to allow azureus to insert shell script commands before and after azureus runs.  The initial use of this is to find where your Gecko Engine/XULRunner is and add it to your LD_LIBRARY_PATH.  The secondary use of this is to allow Azureus to restart/update via a script action, instead of the older, clunkier way of trying to run Java over again.
+</p><p>1) Set SCRIPT_VERSION string
+</p>
+<pre>SCRIPT_VERSION=1
+</pre>
+<p>2) You need to add the following function to your script:
+</p>
+<pre>
+runJavaOutput()
+{
+	${JAVA_PROGRAM_DIR}java &quot;${JAVA_ARGS}&quot; -cp &quot;${CLASSPATH}&quot; -Djava.library.path=&quot;${PROGRAM_DIR}&quot; -Dazureus.install.path=&quot;${PROGRAM_DIR}&quot; -Dazureus.script.version=&quot;${SCRIPT_VERSION}&quot; -Dazureus.script=&quot;$0&quot; ${1} &gt; ~/azScript
+	if [ -f ~/azScript ]; then
+		chmod +x ~/azScript
+		. ~/azScript
+		rm ~/azScript
+	fi
+}
+</pre>
+<p>3) Just before running azureus (launching java), add the following line.  Note that this should be AFTER you set LD_LIBRARY_PATH (if you do that)
+</p>
+<pre>
+runJavaOutput &quot;org.gudy.azureus2.platform.unix.ScriptBeforeStartup&quot;;
+</pre>
+<p>4) Add two java system properties when launching azureus:
+</p>
+<pre>-Dazureus.script.version="${SCRIPT_VERSION}" -Dazureus.script="$0"
+</pre>
+<p>5) Just after running azureus, add this line:
+</p>
+<pre>
+runJavaOutput &quot;org.gudy.azureus2.platform.unix.ScriptAfterShutdown&quot;;
+</pre>
+<h3><span class="editsection">[<a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit&amp;section=8" title="Edit section: VERSION 2">edit</a>]</span> <span class="mw-headline" id="VERSION_2">VERSION 2</span></h3>
+<p>Version 2 passes all the command line arguments to the "runJavaOutput()" function.  This is needed because ScriptBeforeStartup will check to see if Azureus is running, and if it is, pass the parameters to it.
+</p><p>1) Set SCRIPT_VERSION string
+</p>
+<blockquote><pre>
+SCRIPT_VERSION=2
+</pre></blockquote>
+<p>2) Update the runJavaOutput function you created in version 1 to:
+</p>
+<blockquote><pre>
+runJavaOutput()
+{
+	# assume we can write to the user's home..
+
+	${JAVA_PROGRAM_DIR}java &quot;${JAVA_ARGS}&quot; \
+		-cp &quot;${CLASSPATH}&quot; \
+		-Djava.library.path=&quot;${PROGRAM_DIR}&quot; \
+		-Dazureus.install.path=&quot;${PROGRAM_DIR}&quot; \
+		-Dazureus.script=&quot;$0&quot; \
+		$JAVA_PROPS \
+		&quot;$@&quot; &gt; ~/azScript
+	if [ -f ~/azScript ]; then
+		chmod +x ~/azScript
+		. ~/azScript
+		rm ~/azScript
+	fi
+}
+</pre>
+<p>(The difference is that ${1} was turned into "$@")
+</p>
+</blockquote>
+<p>3) Update the two runJavaOutput calls to:
+</p>
+<blockquote>
+<pre>runJavaOutput &quot;org.gudy.azureus2.platform.unix.ScriptBeforeStartup&quot; &quot;$@&quot;;</pre>
+<p>and
+</p>
+<pre>runJavaOutput &quot;org.gudy.azureus2.platform.unix.ScriptAfterShutdown&quot; &quot;$@&quot;;</pre>
+<p>("$@" was appended to the call)
+</p>
+</blockquote>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 70/1000000
+Preprocessor generated node count: 176/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!-- Saved in parser cache with key vuze_wiki:pcache:idhash:4045-0!*!*!!en!*!* and timestamp 20131114095333 -->
+</div><div class="printfooter">
+Retrieved from "<a href="https://web.archive.org/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;oldid=9852">http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;oldid=9852</a>"</div>
+		<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/web/20131114095333/http://wiki.vuze.com/w/Special:Categories" title="Special:Categories">Category</a>: <ul><li><a href="/web/20131114095333/http://wiki.vuze.com/w/Category:Technical_Information" title="Category:Technical Information">Technical Information</a></li></ul></div></div>		<!-- end content -->
+				<div class="visualClear"></div>
+	</div>
+</div></div>
+<div id="column-one">
+	<h2>Navigation menu</h2>
+	<div id="p-cactions" class="portlet" role="navigation">
+		<h3>Views</h3>
+		<div class="pBody">
+			<ul>
+				<li id="ca-nstab-main" class="selected"><a href="/web/20131114095333/http://wiki.vuze.com/w/Unix_Startup_Script" primary="1" context="subject" title="View the content page [c]" accesskey="c">Page</a></li>
+				<li id="ca-talk" class="new"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Talk:Unix_Startup_Script&amp;action=edit&amp;redlink=1" primary="1" context="talk" title="Discussion about the content page [t]" accesskey="t">Discussion</a></li>
+				<li id="ca-edit"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=edit" primary="1" title="You can edit this page. Please use the preview button before saving [e]" accesskey="e">Edit</a></li>
+				<li id="ca-history"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=history" rel="archives" title="Past revisions of this page [h]" accesskey="h">History</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-personal" role="navigation">
+		<h3>Personal tools</h3>
+		<div class="pBody">
+			<ul>
+				<li id="pt-createaccount"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Special:UserLogin&amp;returnto=Unix+Startup+Script&amp;type=signup">Create account</a></li>
+				<li id="pt-login"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Special:UserLogin&amp;returnto=Unix+Startup+Script" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="portlet" id="p-logo" role="banner">
+<a href="/web/20131114095333/http://wiki.vuze.com/w/Main_Page" style="background-image: url(https://web.archive.org/web/20131114095333im_/http://hwcdn01.vuze.com/logo/full_logo_136x68.png);" title="Visit the main page"></a>
+	</div>
+	<div class="generated-sidebar portlet" id="p-" role="navigation">
+		<h3></h3>
+		<div class="pBody">
+			<ul>
+				<li id="n-Download-Vuze-Now"><a href="https://web.archive.org/web/20131114095333/http://www.vuze.com/download" target="_blank">Download Vuze Now</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="generated-sidebar portlet" id="p-navigation" role="navigation">
+		<h3>Navigation</h3>
+		<div class="pBody">
+			<ul>
+				<li id="n-mainpage-description"><a href="/web/20131114095333/http://wiki.vuze.com/w/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li>
+				<li id="n-portal"><a href="/web/20131114095333/http://wiki.vuze.com/w/VuzeWiki:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li>
+				<li id="n-currentevents"><a href="/web/20131114095333/http://wiki.vuze.com/w/VuzeWiki:Current_events" title="Find background information on current events">Current events</a></li>
+				<li id="n-recentchanges"><a href="/web/20131114095333/http://wiki.vuze.com/w/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li>
+				<li id="n-randompage"><a href="/web/20131114095333/http://wiki.vuze.com/w/Special:Random" title="Load a random page [x]" accesskey="x">Random page</a></li>
+				<li id="n-help"><a href="/web/20131114095333/http://wiki.vuze.com/w/Help:Contents" title="The place to find out">Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="p-search" class="portlet" role="search">
+		<h3><label for="searchInput">Search</label></h3>
+		<div id="searchBody" class="pBody">
+			<form action="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php" id="searchform">
+				<input type="hidden" name="title" value="Special:Search"/>
+				<input type="search" name="search" title="Search VuzeWiki [f]" accesskey="f" id="searchInput"/>
+				<input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchGoButton" class="searchButton"/>&#160;
+				<input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton"/>
+			</form>
+		</div>
+	</div>
+	<div class="portlet" id="p-tb" role="navigation">
+		<h3>Toolbox</h3>
+		<div class="pBody">
+			<ul>
+				<li id="t-whatlinkshere"><a href="/web/20131114095333/http://wiki.vuze.com/w/Special:WhatLinksHere/Unix_Startup_Script" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li>
+				<li id="t-recentchangeslinked"><a href="/web/20131114095333/http://wiki.vuze.com/w/Special:RecentChangesLinked/Unix_Startup_Script" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li>
+				<li id="t-specialpages"><a href="/web/20131114095333/http://wiki.vuze.com/w/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+				<li id="t-print"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>
+				<li id="t-permalink"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;oldid=9852" title="Permanent link to this revision of the page">Permanent link</a></li>
+				<li id="t-info"><a href="/web/20131114095333/http://wiki.vuze.com/mediawiki/index.php?title=Unix_Startup_Script&amp;action=info">Page information</a></li>
+			</ul>
+		</div>
+	</div>
+</div><!-- end of the left (by default at least) column -->
+<div class="visualClear"></div>
+<div id="footer" role="contentinfo">
+	<div id="f-poweredbyico">
+		<a href="//web.archive.org/web/20131114095333/http://www.mediawiki.org/"><img src="/web/20131114095333im_/http://wiki.vuze.com/mediawiki/skins/common/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"/></a>
+	</div>
+	<ul id="f-list">
+		<li id="lastmod"> This page was last modified on 17 November 2010, at 23:42.</li>
+		<li id="viewcount">This page has been accessed 5,025 times.</li>
+		<li id="about"><a href="/web/20131114095333/http://wiki.vuze.com/w/VuzeWiki:About" title="VuzeWiki:About">About VuzeWiki</a></li>
+	</ul>
+</div>
+</div>
+<script>if(window.mw){
+mw.loader.state({"site":"loading","user":"missing","user.groups":"ready"});
+}</script>
+<script>if(window.mw){
+mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.page.ready","mediawiki.searchSuggest","mediawiki.hidpi"], null, true);
+}</script>
+<script type="text/javascript">  
+UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//web.archive.org/web/20131114095333/http://widget.uservoice.com/f5kmK1F7NbAqKV3EYfu3A.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+// Set colors
+UserVoice.push(['set', {
+  accent_color: '#448dd6',
+  trigger_color: 'white',
+    forum_id: 170588,
+    contact_enabled: false,
+  trigger_background_color: 'rgba(46, 49, 51, 0.6)'
+}]);
+
+// Identify the user and pass traits
+// To enable, replace sample data with actual user traits and uncomment the line
+UserVoice.push(['identify', {
+  type:       'Wiki'
+}]);
+
+// Add default trigger to the bottom-right corner of the window:
+UserVoice.push(['addTrigger', { mode: 'smartvote', trigger_position: 'bottom-right' }]);
+
+UserVoice.push(['autoprompt', {}]);
+</script>
+<script src="https://web.archive.org/web/20131114095333js_/http://wiki.vuze.com/mediawiki/load.php?debug=false&amp;lang=en&amp;modules=site&amp;only=scripts&amp;skin=monobook&amp;*"></script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://web.archive.org/web/20131114095333/https://ssl." : "https://web.archive.org/web/20131114095333/http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-1474242-1");
+pageTracker._trackPageview();
+</script><!-- Served in 0.245 secs. --></body></html><!--
+     FILE ARCHIVED ON 09:53:33 Nov 14, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:26:08 Apr 20, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 128.95
+  exclusion.robots: 0.133
+  exclusion.robots.policy: 0.123
+  cdx.remote: 0.057
+  esindex: 0.007
+  LoadShardBlock: 97.358 (3)
+  PetaboxLoader3.datanode: 101.429 (4)
+  load_resource: 156.849
+  PetaboxLoader3.resolve: 98.264
+-->
